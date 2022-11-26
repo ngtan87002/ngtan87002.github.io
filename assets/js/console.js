@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var isConsoleStreaming = false;
 
     
-    console.log("<-- Code publicly available at https://github.com/41Baloo/bxv.gg -->")
+    console.log("<-- Tan Dep Trai Khong ???? -->")
 	
     document.addEventListener("mousedown", function (e) {
         if(!isConsoleStreaming){
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 consoleReady = false;
                 cmdHistoryPos = -1;
                 executeCMD(cmdInput).then(result => {
-					consoleData.push("root@baloo:~$ " + cmdInput);
+					consoleData.push("root@Future:~$ " + cmdInput);
                     result.forEach(line => {
 						consoleData.push(line);
 					});
@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     reject();
                     break;
                 case "login":
-                    location.href = 'https://bxv.gg/login';
+                    location.href = 'https://fur-dev.click/login';
                     reject();
                 case "skiop":
                     resolve(["idk, just kinda cute"]);
