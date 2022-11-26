@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const title = "BxV, Baloo X Voltic";
+    const title = "FuR, Future X Remain";
     const title_element = document.getElementById("bxv-title");
     
     let offset = 1;
